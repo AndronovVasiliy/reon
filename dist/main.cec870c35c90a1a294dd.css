@@ -1,0 +1,121 @@
+/*!**********************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./styles/styles.css ***!
+  \**********************************************************************/
+.list_post {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    gap: 10px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    background-color: white;
+    align-items: center;
+    flex: 1 1 auto;
+    border-radius: 15px;
+    padding: 5px;
+    gap: 5px
+}
+
+.paginator {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.paginatorItem {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style-type: none;
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hideItem {
+    display: none;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    gap: 5px
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.add_post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50px;
+    background-color: green; 
+    border-radius: 15px;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+
+}
+
+.modal_add_post{ 
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #DEAA88;
+    border-radius: 15px;
+    gap: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 999;
+    top: 10px;
+    left: calc(50% - 150px)
+}
+
+.hide_item{
+    display: none
+}
+
+.input_description {
+    width: 90%;
+    border-radius: 15px;
+    border: none;
+    flex: 1 1 auto;
+    padding: 10px;
+}
+
+.input_title {
+    width: 90%;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
